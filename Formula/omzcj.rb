@@ -1,10 +1,10 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class App2Ipa < Formula
+class App2ipa < Formula
   desc "app2ipa"
   homepage "https://assassinor.github.io"
-  url "https://raw.githubusercontent.com/assassinor/opt/master/app2ipa"
+  url "https://raw.githubusercontent.com/assassinor/opt/master/bin/app2ipa"
   version "0.0.1"
   sha256 "802ba738dc816ec870fadaa5df095e79b933fab32376fe9edb5f799342bb9d24"
   license ""

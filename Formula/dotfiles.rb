@@ -1,7 +1,7 @@
 class Dotfiles < Formula
   desc "dotfiles"
   homepage "https://assassinor.github.io"
-  url "https://raw.githubusercontent.com/assassinor/opt/master/dotfiles"
+  url "https://raw.githubusercontent.com/assassinor/opt/master/bin/dotfiles"
   version "0.0.1"
   sha256 "df6dfbb5cd25f5f462082bf75cc63f713f93f41be77a77fc058b2626f0ff86c8"
   license ""

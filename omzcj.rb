@@ -7,14 +7,6 @@ class Omzcj < Formula
 
   def install
     bin.install Dir["bin/*"]
-    # bin.install "bin/app2ipa"
-    # bin.install "bin/cartool"
-    # bin.install "bin/dotfiles"
-    # bin.install "bin/imgcat"
-    # bin.install "bin/iterm2-recv-zmodem"
-    # bin.install "bin/iterm2-send-zmodem"
-    # bin.install "bin/launchpad"
-    # bin.install "bin/trial"
   end
 
   test do

@@ -1,8 +1,8 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class App2ipa < Formula
-  desc "app2ipa"
+class Omzcj < Formula
+  desc "omzcj"
   homepage "https://assassinor.github.io"
   url "https://github.com/assassinor/opt/archive/refs/tags/0.0.1.tar.gz"
   version "0.0.1"

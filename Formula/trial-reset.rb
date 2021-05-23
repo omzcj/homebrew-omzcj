@@ -2,7 +2,7 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class TrialReset < Formula
-  desc ""
+  desc "trial reset"
   homepage ""
   url "https://www.baidu.com"
   version "0.0.1"

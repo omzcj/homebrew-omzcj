@@ -5,7 +5,7 @@ class TrialReset < Formula
   desc "trial reset"
   homepage ""
   url "https://www.baidu.com"
-  version ""
+  version "0.0.1"
   sha256 ""
   license ""
 

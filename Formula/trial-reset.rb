@@ -6,7 +6,7 @@ class TrialReset < Formula
   homepage "https://assassinor.github.io"
   url "https://raw.githubusercontent.com/assassinor/opt/master/trial-reset/bin/trial-reset"
   version "0.0.1"
-  sha256 ""
+  sha256 "e200d92d94ea499d430cdd09529526a5f73cc1f5e395ecf309478c36ed94608e"
   license ""
 
   # depends_on "cmake" => :build

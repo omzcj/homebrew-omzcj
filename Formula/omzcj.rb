@@ -16,7 +16,14 @@ class Omzcj < Formula
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     # system "./configure", *std_configure_args, "--disable-silent-rules"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-    bin.install "bin/"
+    bin.install "bin/app2ipa"
+    bin.install "bin/cartool"
+    bin.install "bin/dotfiles"
+    bin.install "bin/imgcat"
+    bin.install "bin/iterm2-recv-zmodem"
+    bin.install "bin/iterm2-send-zmodem"
+    bin.install "bin/launchpad"
+    bin.install "bin/trial"
   end
 
   test do

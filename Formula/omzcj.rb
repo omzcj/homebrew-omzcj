@@ -4,9 +4,9 @@
 class App2ipa < Formula
   desc "app2ipa"
   homepage "https://assassinor.github.io"
-  url "https://raw.githubusercontent.com/assassinor/opt/master/bin/app2ipa"
+  url "https://github.com/assassinor/opt/archive/refs/tags/0.0.1.tar.gz"
   version "0.0.1"
-  sha256 "802ba738dc816ec870fadaa5df095e79b933fab32376fe9edb5f799342bb9d24"
+  sha256 "1a08bf47d07306574b841cd6d432257fe0d47b34bf14150d038d24ea1fc53b50"
   license ""
 
   # depends_on "cmake" => :build

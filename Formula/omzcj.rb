@@ -2,7 +2,7 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Omzcj < Formula
-  desc "omzcj"
+  desc "app2ipa"
   homepage "https://assassinor.github.io"
   url "https://github.com/assassinor/opt/archive/refs/tags/0.0.1.tar.gz"
   version "0.0.1"
@@ -17,7 +17,7 @@ class Omzcj < Formula
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     # system "./configure", *std_configure_args, "--disable-silent-rules"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-    bin.install "bin/*"
+    # bin.install "bin/*"
   end
 
   test do

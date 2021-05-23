@@ -3,8 +3,8 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class TrialReset < Formula
   desc "trial reset"
-  homepage "https://www.zhangchaojie.com.cn"
-  url "https://www.baidu.com"
+  homepage "https://assassinor.github.io"
+  url "https://raw.githubusercontent.com/assassinor/opt/master/trial-reset/bin/trial-reset"
   version "0.0.1"
   sha256 ""
   license ""

@@ -3,7 +3,7 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class TrialReset < Formula
   desc "trial reset"
-  homepage ""
+  homepage "https://www.zhangchaojie.com.cn"
   url "https://www.baidu.com"
   version "0.0.1"
   sha256 ""

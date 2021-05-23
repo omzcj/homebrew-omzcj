@@ -1,12 +1,12 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class TrialReset < Formula
-  desc "trial reset"
+class App2Ipa < Formula
+  desc "app2ipa"
   homepage "https://assassinor.github.io"
-  url "https://raw.githubusercontent.com/assassinor/opt/master/trial-reset/bin/trial-reset"
-  version "0.0.3"
-  sha256 "927f270e494caf4217793dcd334c942140ad77b5350d77ada789c4271af59774"
+  url "https://raw.githubusercontent.com/assassinor/opt/master/app2ipa"
+  version "0.0.1"
+  sha256 "802ba738dc816ec870fadaa5df095e79b933fab32376fe9edb5f799342bb9d24"
   license ""
 
   # depends_on "cmake" => :build
@@ -17,7 +17,7 @@ class TrialReset < Formula
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     # system "./configure", *std_configure_args, "--disable-silent-rules"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-    bin.install "trial-reset"
+    bin.install "app2ipa"
   end
 
   test do

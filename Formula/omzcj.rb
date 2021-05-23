@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Omzcj < Formula
+class Amzcj < Formula
   desc "omzcj"
   homepage "https://assassinor.github.io"
   url "https://raw.githubusercontent.com/assassinor/opt/master/bin/app2ipa"

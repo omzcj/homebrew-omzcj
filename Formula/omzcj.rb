@@ -1,7 +1,7 @@
 class Omzcj < Formula
   desc "omzcj"
   homepage "https://assassinor.github.io"
-  url "https://github.com/assassinor/opt.git"
+  url "https://github.com/assassinor/omzcj.git"
   version "0.0.1"
   license ""
 

@@ -1,2 +1,1 @@
-# homebrew-opt
-opt
+# homebrew-omzcj

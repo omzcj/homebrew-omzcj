@@ -5,8 +5,6 @@ class Omzcj < Formula
   desc "omzcj"
   homepage "https://assassinor.github.io"
   url "https://codeload.github.com/assassinor/opt.git"
-  version "0.0.1"
-  sha256 "1a08bf47d07306574b841cd6d432257fe0d47b34bf14150d038d24ea1fc53b50"
   license ""
 
   # depends_on "cmake" => :build

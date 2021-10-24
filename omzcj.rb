@@ -9,6 +9,13 @@ class Omzcj < Formula
     bin.install Dir["bin/*"]
   end
 
+  service do
+    run [opt_bin/"ds_store", "monit"]
+    keep_alive true
+    error_log_path var/"log/ds_store.log"
+    log_path var/"log/ds_store.log"
+  end
+
   test do
     system "false"
   end

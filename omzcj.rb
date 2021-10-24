@@ -13,7 +13,7 @@ class Omzcj < Formula
     run [opt_bin/"ds_store", "monit"]
     keep_alive true
     log_path var/"log/ds_store.log"
-    error_log_path var/"log/ds_store.error.log"
+    error_log_path var/"log/ds_store.error"
   end
 
   test do

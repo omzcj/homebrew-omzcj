@@ -6,7 +6,7 @@ class Omzcj < Formula
   license ""
 
   def install
-    echo '#{Dir.pwd}'
+    system "make"
     bin.install Dir["bin/*"]
   end
 

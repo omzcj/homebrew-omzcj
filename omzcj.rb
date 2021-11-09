@@ -7,7 +7,7 @@ class Omzcj < Formula
 
   def install
     pwd
-    mkdir ab
+    mkdir "abc"
     bin.install Dir["bin/*"]
   end
 

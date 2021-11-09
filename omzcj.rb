@@ -6,7 +6,7 @@ class Omzcj < Formula
   license ""
 
   def install
-    system "make"
+    system "make", "-C", "./"
     bin.install Dir["bin/*"]
   end
 

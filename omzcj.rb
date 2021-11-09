@@ -6,8 +6,7 @@ class Omzcj < Formula
   license ""
 
   def install
-    pwd
-    mkdir "abc"
+    echo '#{Dir.pwd}'
     bin.install Dir["bin/*"]
   end
 

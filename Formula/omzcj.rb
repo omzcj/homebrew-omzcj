@@ -15,7 +15,8 @@ class Omzcj < Formula
   depends_on "trial"
 
   def install
-    system "false"
+    system "make", "trial"
+    bin.install Dir["bin/*"]
   end
 
   test do

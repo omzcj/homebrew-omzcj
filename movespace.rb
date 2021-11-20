@@ -6,7 +6,7 @@ class Movespace < Formula
   license ""
 
   def install
-    system "make", "build", "movespace"
+    system "make", "movespace"
     bin.install Dir["bin/*"]
   end
   

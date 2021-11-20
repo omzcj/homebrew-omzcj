@@ -6,7 +6,7 @@ class Imgcat < Formula
   license ""
 
   def install
-    system "make", "build", "imgcat"
+    system "make", "imgcat"
     bin.install Dir["bin/*"]
   end
 

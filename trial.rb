@@ -6,7 +6,7 @@ class Trial < Formula
   license ""
 
   def install
-    system "make", "build", "trial"
+    system "make", "trial"
     bin.install Dir["bin/*"]
   end
 

@@ -6,7 +6,7 @@ class Launchpad < Formula
   license ""
 
   def install
-    system "make", "build", "launchpad"
+    system "make", "launchpad"
     bin.install Dir["bin/*"]
   end
 

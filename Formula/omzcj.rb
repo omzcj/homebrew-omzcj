@@ -15,7 +15,7 @@ class Omzcj < Formula
   depends_on "trial"
 
   def install
-    
+    system "false"
   end
 
   test do

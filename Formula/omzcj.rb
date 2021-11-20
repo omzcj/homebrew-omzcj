@@ -9,7 +9,7 @@ class Omzcj < Formula
   depends_on "dotfiles"
   depends_on "ds_store"
   depends_on "imgcat"
-  depends_on "iterm2-zmodem"
+  depends_on "iterm2-zssh"
   depends_on "launchpad"
   depends_on "movespace"
   depends_on "trial"

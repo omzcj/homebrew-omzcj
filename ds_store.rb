@@ -1,4 +1,4 @@
-class Ds_store < Formula
+class DsStore < Formula
   desc "ds_store"
   homepage "https://assassinor.github.io"
   url "https://github.com/assassinor/omzcj.git"

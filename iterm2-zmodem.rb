@@ -6,7 +6,7 @@ class Iterm2Zmodem < Formula
   license ""
 
   def install
-    system "make", "build", "iterm2-zmodem"
+    system "make", "iterm2-zmodem"
     bin.install Dir["bin/*"]
   end
 

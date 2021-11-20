@@ -6,7 +6,7 @@ class Dotfiles < Formula
   license ""
 
   def install
-    system "make", "build", "dotfiles"
+    system "make", "dotfiles"
     bin.install Dir["bin/*"]
   end
   

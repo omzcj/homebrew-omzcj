@@ -6,7 +6,7 @@ class DsStore < Formula
   license ""
 
   def install
-    system "make", "ds_store"
+    system "make", "build"
     bin.install Dir["bin/*"]
   end
 

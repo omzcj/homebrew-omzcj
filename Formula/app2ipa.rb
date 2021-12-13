@@ -6,7 +6,7 @@ class App2ipa < Formula
   license ""
 
   def install
-    system "make", "app2ipa"
+    system "make", "build"
     bin.install Dir["bin/*"]
   end
 

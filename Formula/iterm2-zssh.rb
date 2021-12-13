@@ -6,7 +6,7 @@ class Iterm2Zssh < Formula
   license ""
 
   def install
-    system "make", "iterm2-zssh"
+    system "make", "build"
     bin.install Dir["bin/*"]
   end
 

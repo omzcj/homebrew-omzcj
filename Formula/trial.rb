@@ -1,7 +1,7 @@
 class Trial < Formula
   desc "trial"
   homepage "https://trial.github.io"
-  url "https://github.com/omzcj/trial.git"
+  url "https://github.com/omzcj/trial.git", branch: "main"
   version "0.0.1"
   license ""
 

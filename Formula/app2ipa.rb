@@ -4,7 +4,6 @@ class App2ipa < Formula
   url "https://github.com/omzcj/app2ipa.git"
   version "0.0.1"
   license ""
-  head "https://github.com/omzcj/app2ipa.git", branch: "main"
 
   def install
     system "make", "build"

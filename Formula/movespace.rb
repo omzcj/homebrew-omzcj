@@ -1,7 +1,7 @@
 class Movespace < Formula
   desc "movespace"
-  homepage "https://assassinor.github.io"
-  url "https://github.com/assassinor/omzcj.git"
+  homepage "https://movespace.github.io"
+  url "https://github.com/omzcj/movespace.git"
   version "0.0.1"
   license ""
 

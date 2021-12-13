@@ -1,7 +1,7 @@
 class App2ipa < Formula
   desc "app2ipa"
-  homepage "https://assassinor.github.io"
-  url "https://github.com/assassinor/omzcj.git"
+  homepage "https://omzcj.github.io"
+  url "https://github.com/omzcj/app2ipa.git"
   version "0.0.1"
   license ""
 

@@ -1,7 +1,7 @@
 class Imgcat < Formula
   desc "imgcat"
-  homepage "https://assassinor.github.io"
-  url "https://github.com/assassinor/omzcj.git"
+  homepage "https://omzcj.github.io"
+  url "https://github.com/omzcj/imgcat.git"
   version "0.0.1"
   license ""
 

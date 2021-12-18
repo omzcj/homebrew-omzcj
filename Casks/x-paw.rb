@@ -1,4 +1,4 @@
-cask "paw" do
+cask "x-paw" do
   version "3.3.0"
   sha256 "cc410fe95aeea3407d9ff242152ba2da5dd16f0e544629ae990b48799ea85363"
 

@@ -1,4 +1,4 @@
-cask "cleanmymac" do
+cask "x-cleanmymac" do
   desc "Tool to remove unnecessary files and folders from disk"
   homepage "https://macpaw.com/cleanmymac"
   version "4.8.9"

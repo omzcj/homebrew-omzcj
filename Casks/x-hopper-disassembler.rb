@@ -1,4 +1,4 @@
-cask "x-hopper-Disassembler" do
+cask "x-hopper-disassembler" do
   version "4.0.8"
   sha256 "8dc24161f7d91b754fa67452b4913631905f31b0503cfe00c6c5d09db6ea1313"
 

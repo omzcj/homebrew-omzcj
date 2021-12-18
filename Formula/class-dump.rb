@@ -1,4 +1,4 @@
-class Classdump < Formula
+class ClassDump < Formula
   desc "class-dump"
   homepage "http://stevenygard.com/"
   url "http://stevenygard.com/download/class-dump-3.5.tar.gz"

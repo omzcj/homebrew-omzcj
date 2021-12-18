@@ -1,13 +1,22 @@
 cask "x-cleanmymac" do
+  version "4.8.9"
+  sha256 "460ceca4fedae42332400c7565b2dcf7b96a52e44d712ff8678306dbcd19de75"
+
+  url "https://github.com/omzcj/x-cleanmymac/releases/download/#{version}/CleanMyMac.X.#{version}.dmg"
+
+  name "CleanMyMac X"
   desc "Tool to remove unnecessary files and folders from disk"
   homepage "https://macpaw.com/cleanmymac"
-  version "4.8.9"
-  url "https://github.com/omzcj/cleanmymac/releases/download/4.8.9/CleanMyMac.X.4.8.9.dmg"
-  sha256 "460ceca4fedae42332400c7565b2dcf7b96a52e44d712ff8678306dbcd19de75"
+  
+  livecheck do
+    url "https://updates.devmate.com/com.macpaw.CleanMyMac#{version.major}.xml"
+    strategy :sparkle
+  end
+
+  auto_updates true
   
   app "CleanMyMac X.app"
-  name "CleanMyMac X"
-
+  
   uninstall delete:     "/Library/PrivilegedHelperTools/com.macpaw.CleanMyMac#{version.major}.Agent",
             launchctl:  [
               "com.macpaw.CleanMyMac#{version.major}.Agent",

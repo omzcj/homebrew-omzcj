@@ -8,4 +8,6 @@ cask "i4tools" do
   pkg "i4tools.pkg"
   name "i4tools"
 
+  uninstall pkgutil: "cn.i4tools.mac"
+
 end

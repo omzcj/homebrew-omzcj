@@ -4,6 +4,7 @@ cask "hopper-disassembler" do
 
   url "https://d2ap6ypl1xbe4k.cloudfront.net/Hopper-#{version}-demo.dmg"
   name "Hopper Disassembler"
+  desc "Hopper Disassembler"
   homepage "https://www.hopperapp.com/"
 
   livecheck do

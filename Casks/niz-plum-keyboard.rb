@@ -1,6 +1,6 @@
 cask "niz-plum-keyboard" do
   desc "Niz Plum键盘校验工具"
-  homepage "https://www.nizkeyboard.com"
+  homepage "https://www.nizkeyboard.com/"
   version "1.0.2"
   url "https://github.com/omzcj/niz-plum-keyboard/releases/download/1.0.2/niz-plum-keyboard-v1.0.2.dmg"
   sha256 "c0614de6ef28d7b5dc10cf55df32946ef47663318cc319aa512b702462848853"

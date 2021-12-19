@@ -6,7 +6,7 @@ cask "x-cleanmymac" do
 
   name "CleanMyMac X"
   desc "Tool to remove unnecessary files and folders from disk"
-  homepage "https://macpaw.com/cleanmymac"
+  homepage "https://macpaw.com/cleanmymac/"
   
   livecheck do
     url "https://updates.devmate.com/com.macpaw.CleanMyMac#{version.major}.xml"

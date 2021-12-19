@@ -4,7 +4,7 @@ cask "x-hopper-disassembler" do
 
   url "https://github.com/omzcj/x-hopper-disassembler/releases/download/#{version}/Hopper.Disassembler.#{version}.dmg"
   name "Hopper Disassembler"
-  homepage "https://www.hopperapp.com/HopperGDBServer"
+  homepage "https://www.hopperapp.com/HopperGDBServer/"
 
   livecheck do
     url "https://www.hopperapp.com/HopperGDBServer/appcast.xml"

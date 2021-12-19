@@ -12,5 +12,5 @@ cask "hopper-disassembler" do
     strategy :sparkle
   end
 
-  app "Hopper Disassembler.app"
+  app "Hopper Disassembler v4.app"
 end

@@ -1,7 +1,7 @@
-class FridaIosDump < Formula
-  desc "frida-ios-dump"
+class Ipadump < Formula
+  desc "ipadump"
   homepage "https://omzcj.github.io/"
-  url "https://github.com/omzcj/frida-ios-dump.git", branch: "main"
+  url "https://github.com/omzcj/ipadump.git", branch: "main"
   version "0.0.1"
 
   depends_on "pipenv"

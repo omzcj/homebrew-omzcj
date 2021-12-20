@@ -4,6 +4,8 @@ class Dotfiles < Formula
   url "https://github.com/omzcj/dotfiles.git", branch: "main"
   version "0.0.1"
 
+  depends_on "python3"
+
   def install
     system "make", "build"
     bin.install Dir["bin/*"]

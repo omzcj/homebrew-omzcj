@@ -1,6 +1,7 @@
 class IproxyServer < Formula
   desc "iproxy-server"
   homepage "https://omzcj.github.io/"
+  url "https://omzcj.github.io/"
   version "0.0.1"
 
   service do

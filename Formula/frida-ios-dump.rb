@@ -4,7 +4,6 @@ class FridaIosDump < Formula
   url "https://github.com/omzcj/frida-ios-dump.git", branch: "main"
   version "0.0.1"
 
-  depends_on "git"
   depends_on "pipenv"
 
   def install

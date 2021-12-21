@@ -13,7 +13,7 @@ class Ipatool < Formula
   end
 
   service do
-    run ["/usr/local/bin/iproxy", "2222:22"]
+    run [opt_bin/"ipatool", "server"]
     keep_alive true
   end
 

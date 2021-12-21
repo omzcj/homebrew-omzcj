@@ -5,6 +5,7 @@ class Ipatool < Formula
   version "0.0.1"
 
   depends_on "pipenv"
+  depends_on "libusbmuxd"
 
   def install
     system "make", "build"
@@ -12,7 +13,7 @@ class Ipatool < Formula
   end
 
   service do
-    run [opt_bin/"iproxy", "2222:22"]
+    run ["/usr/local/bin/iproxy", "2222:22"]
     keep_alive true
   end
 

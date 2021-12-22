@@ -1,8 +1,8 @@
 class ClassDump < Formula
   desc "class-dump"
   homepage "http://stevenygard.com/"
-  url "http://stevenygard.com/download/class-dump-3.5.tar.gz"
-  sha256 "b08134f8efbfaf3bb0c6cb4fc3bd9865b95860d31ea363d9e67a990ed7215bf9"
+  url "https://raw.githubusercontent.com/AloneMonkey/MonkeyDev/master/bin/class-dump"
+  sha256 "2b6e88826f053792e496245a39259071ca4dd7accbd3feb6e60d37a245437514"
   version "3.5"
 
   def install

@@ -5,6 +5,7 @@ class ClassDump < Formula
   version "3.5"
 
   def install
+    system "make", "build"
     bin.install Dir["class-dump"]
   end
 

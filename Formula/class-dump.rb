@@ -1,11 +1,10 @@
 class ClassDump < Formula
   desc "class-dump"
   homepage "http://stevenygard.com/"
-  url "https://github.com/omzcj/class-dump.git", branch: "master"
-  version "3.5"
+  url "https://github.com/omzcj/class-dump/releases/download/3.6.0-alpha/class-dump"
+  version "3.6.0-alpha"
 
   def install
-    system "make", "build"
     bin.install Dir["class-dump"]
   end
 

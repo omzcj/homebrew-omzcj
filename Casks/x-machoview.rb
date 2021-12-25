@@ -1,6 +1,6 @@
 cask "x-machoview" do
   version "2.6.1"
-  sha256 "1eae99e92f51ca7a7470ffa9d78a2a31e28c743805ca514ec4a41210bc145e26"
+  sha256 "9860bc267fa8fe2540447da4a3381dc5e38c61f74367b14c1ffca88a6fca935a"
 
   url "https://github.com/fangshufeng/MachOView/releases/download/#{version}/MachOView-#{version}.dmg"
   name "MachOView"

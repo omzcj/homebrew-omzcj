@@ -12,7 +12,8 @@ class Lockscreen < Formula
   end
 
   service do
-    run [opt_bin/"lockscreend"]
+    run ["/usr/local/bin/etcd", "--endpoints=zhangchaojie.net:2379", "watch", "mac.lockscreen", "--", "/usr/local/bin/locks
+creen"]
     keep_alive true
   end
 

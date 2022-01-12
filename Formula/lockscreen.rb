@@ -12,7 +12,7 @@ class Lockscreen < Formula
   end
 
   service do
-    run [opt_bin/"lockscreen"]
+    run [opt_bin/"lockscreend"]
     keep_alive true
   end
 

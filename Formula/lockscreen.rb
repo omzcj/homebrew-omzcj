@@ -11,11 +11,6 @@ class Lockscreen < Formula
     bin.install Dir["bin/*"]
   end
 
-  service do
-    run ["/usr/local/bin/etcdctl", "--endpoints=zhangchaojie.net:2379", "watch", "mac.lockscreen", "--", "/usr/local/bin/lockscreen"]
-    keep_alive true
-  end
-
   test do
     system "false"
   end

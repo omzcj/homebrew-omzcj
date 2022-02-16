@@ -9,6 +9,7 @@ class Etcdcenter < Formula
   def install
     system "make", "build"
     bin.install Dir["bin/*"]
+    lib.install Dir["lib/*"]
   end
 
   service do

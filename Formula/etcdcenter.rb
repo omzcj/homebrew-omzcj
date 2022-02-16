@@ -4,10 +4,11 @@ class Etcdcenter < Formula
   url "https://github.com/omzcj/etcdcenter.git", branch: "main"
   version "0.0.1"
 
+  depends_on "etcd"
+
   def install
     system "make", "build"
     bin.install Dir["bin/*"]
-    lib.install Dir["lib/*"]
   end
 
   service do

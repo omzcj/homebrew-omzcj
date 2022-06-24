@@ -1,7 +1,7 @@
 class Trial < Formula
   desc "trial"
   homepage "https://omzcj.github.io/"
-  url "https://github.com/omzcj/trial.git", branch: "main"
+  url "https://codeload.github.com/omzcj/trial/zip/refs/heads/main"
   version "0.0.1"
 
   def install

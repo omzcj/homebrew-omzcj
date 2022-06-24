@@ -1,7 +1,7 @@
 class Imgcat < Formula
   desc "imgcat"
   homepage "https://omzcj.github.io/"
-  url "https://github.com/omzcj/imgcat.git", branch: "main"
+  url "https://codeload.github.com/omzcj/imgcat/zip/refs/heads/main"
   version "0.0.1"
 
   def install

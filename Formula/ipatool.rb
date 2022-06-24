@@ -1,7 +1,7 @@
 class Ipatool < Formula
   desc "ipatool"
   homepage "https://omzcj.github.io/"
-  url "https://github.com/omzcj/ipatool.git", branch: "main"
+  url "https://codeload.github.com/omzcj/ipatool/zip/refs/heads/main"
   version "0.0.1"
 
   depends_on "pipenv"

@@ -1,7 +1,7 @@
 class Launchpad < Formula
   desc "launchpad"
   homepage "https://omzcj.github.io/"
-  url "https://github.com/omzcj/launchpad.git", branch: "main"
+  url "https://codeload.github.com/omzcj/launchpad/zip/refs/heads/main"
   version "0.0.1"
 
   def install

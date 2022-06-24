@@ -1,4 +1,4 @@
-cask "x-ugreen" do
+cask "ugreen" do
   desc "绿联云"
   homepage "https://nas.lulian.cn/"
   version "3.4.1"

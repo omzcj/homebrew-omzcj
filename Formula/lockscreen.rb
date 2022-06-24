@@ -1,7 +1,7 @@
 class Lockscreen < Formula
   desc "lockscreen"
   homepage "https://omzcj.github.io/"
-  url "https://github.com/omzcj/lockscreen.git", branch: "main"
+  url "https://codeload.github.com/omzcj/lockscreen/zip/refs/heads/main"
   version "0.0.1"
 
   def install

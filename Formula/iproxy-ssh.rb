@@ -9,7 +9,7 @@ class IproxySsh < Formula
   def install
     (bin/"iproxy-ssh").write <<~SH
       #!/bin/sh
-      exec "#{Formula["libimobiledevice"].opt_bin}/iproxy" 2222 22
+      exec "#{Formula["libimobiledevice"].opt_bin}/iproxy" 2222:22
     SH
     chmod 0755, bin/"iproxy-ssh"
   end
@@ -23,6 +23,6 @@ class IproxySsh < Formula
 
   test do
     assert_path_exists bin/"iproxy-ssh"
-    assert_match "iproxy\" 2222 22", (bin/"iproxy-ssh").read
+    assert_match "iproxy\" 2222:22", (bin/"iproxy-ssh").read
   end
 end

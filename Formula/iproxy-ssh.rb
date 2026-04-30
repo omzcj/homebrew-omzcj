@@ -4,12 +4,12 @@ class IproxySsh < Formula
   url "https://github.com/omzcj/homebrew-omzcj.git", branch: "main"
   version "0.0.1"
 
-  depends_on "libimobiledevice"
+  depends_on "libusbmuxd"
 
   def install
     (bin/"iproxy-ssh").write <<~SH
       #!/bin/sh
-      exec "#{Formula["libimobiledevice"].opt_bin}/iproxy" 2222:22
+      exec "#{Formula["libusbmuxd"].opt_bin}/iproxy" 2222:22
     SH
     chmod 0755, bin/"iproxy-ssh"
   end

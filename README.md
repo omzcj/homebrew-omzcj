@@ -59,6 +59,19 @@ brew audit --strict --online --tap=omzcj/omzcj
 brew test <formula>
 ```
 
-Formula 应使用稳定 tag 或固定 commit，并提供 SHA-256。更新无 tag 的源码快照时，同时更新 `url`、日期版本号和 `sha256`。
+`class-dump`、`dotfiles`、`ds_store`、`iterm2-zssh` 和 `lockscreen` 由各自仓库的
+`VERSION` 文件控制版本。修改发布内容时同步更新 `VERSION`，推送到默认分支后，
+GitHub Actions 会先验证构建，再自动创建 tag、Release、发布资源和 SHA-256 文件。
+
+Tap 每天检查一次这些 Release，并通过 Homebrew `bump-packages` 自动创建更新 PR。
+启用前需要在仓库 Actions secrets 中添加 `HOMEBREW_BUMP_TOKEN`；它应是仅授权本仓库、
+能推送分支并创建 Pull Request 的 fine-grained PAT。未配置时工作流会安全跳过，不会产生
+失败通知。
+
+首次启用时按以下顺序推送，避免 Formula 暂时引用还不存在的资源：
+
+1. 先分别推送上述五个上游仓库，等待 Release 工作流全部完成。
+2. 确认四个 `v2026.07.16` 源码 Release 和 `class-dump` 的 `3.6.2` 二进制 Release 已生成。
+3. 最后推送本 Tap；之后的版本更新由 Autobump PR 处理。
 
 Pull Request 会通过 GitHub Actions 在 Intel macOS、Apple Silicon macOS 和 Linux 上运行 BrewTestBot。

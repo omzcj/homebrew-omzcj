@@ -1,9 +1,14 @@
 class DsStore < Formula
   desc "Monitor and remove .DS_Store files"
   homepage "https://github.com/omzcj/ds_store"
-  url "https://github.com/omzcj/ds_store/archive/dddbd6d741cf7c2484ec88af15ca1d25b9cdcd9c.tar.gz"
-  version "2021.12.13"
-  sha256 "f22e1d011e4bb8c93c99036ae87fad6e466235340add100765b8bab810d0ba74"
+  url "https://github.com/omzcj/ds_store/releases/download/v2026.07.16/ds_store-2026.07.16.tar.gz"
+  version "2026.07.16"
+  sha256 "8f3185f7fef4c9a9540e8a54750e0c70331b2b569a4adaff84f7a4e7dc2cadb7"
+
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
 
   depends_on :macos
 

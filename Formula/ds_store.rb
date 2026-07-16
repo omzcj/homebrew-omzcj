@@ -1,8 +1,11 @@
 class DsStore < Formula
-  desc "ds_store"
-  homepage "https://omzcj.github.io/"
-  url "https://github.com/omzcj/ds_store.git", branch: "main"
-  version "0.0.1"
+  desc "Monitor and remove .DS_Store files"
+  homepage "https://github.com/omzcj/ds_store"
+  url "https://github.com/omzcj/ds_store/archive/dddbd6d741cf7c2484ec88af15ca1d25b9cdcd9c.tar.gz"
+  version "2021.12.13"
+  sha256 "f22e1d011e4bb8c93c99036ae87fad6e466235340add100765b8bab810d0ba74"
+
+  depends_on :macos
 
   def install
     system "make", "build"
@@ -17,6 +20,6 @@ class DsStore < Formula
   end
 
   test do
-    system "false"
+    assert_match "ds_store monit", shell_output("#{bin}/ds_store help")
   end
 end

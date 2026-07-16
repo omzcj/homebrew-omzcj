@@ -1,0 +1,40 @@
+name: Autobump releases
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  autobump:
+    runs-on: macos-15-intel
+    env:
+      HOMEBREW_BUMP_TOKEN: ${{ secrets.HOMEBREW_BUMP_TOKEN }}
+    steps:
+      - name: Check configuration
+        run: |
+          if [[ -z "$HOMEBREW_BUMP_TOKEN" ]]; then
+            echo "::notice::HOMEBREW_BUMP_TOKEN is not configured; skipping autobump."
+          fi
+
+      - name: Set up Homebrew
+        if: env.HOMEBREW_BUMP_TOKEN != ''
+        uses: Homebrew/actions/setup-homebrew@1f8e202ffddf94def7f42f6fa3a482e821489f9c # 2026.07.10.1
+        with:
+          token: ${{ secrets.HOMEBREW_BUMP_TOKEN }}
+
+      - name: Open version bump pull requests
+        if: env.HOMEBREW_BUMP_TOKEN != ''
+        uses: Homebrew/actions/bump-packages@1f8e202ffddf94def7f42f6fa3a482e821489f9c # 2026.07.10.1
+        with:
+          token: ${{ secrets.HOMEBREW_BUMP_TOKEN }}
+          formulae: >
+            class-dump
+            dotfiles
+            ds_store
+            iterm2-zssh
+            lockscreen
+          fork: false

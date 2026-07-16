@@ -1,9 +1,14 @@
 class Lockscreen < Formula
   desc "Lock the current macOS user session"
   homepage "https://github.com/omzcj/lockscreen"
-  url "https://github.com/omzcj/lockscreen/archive/f40a4ebd5a140c4cfd834e916b83d3b88b705d71.tar.gz"
-  version "2022.01.12"
-  sha256 "6f36b5426f800e94a96b3245766a7388ee4949615a39ce1d68472c8bac3870c2"
+  url "https://github.com/omzcj/lockscreen/releases/download/v2026.07.16/lockscreen-2026.07.16.tar.gz"
+  version "2026.07.16"
+  sha256 "2172f099537b3eea9898ed5b0db1a7dab9e0d8bc2bfcfa8f9af894d978b37366"
+
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
 
   depends_on :macos
 

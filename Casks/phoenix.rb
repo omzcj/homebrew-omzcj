@@ -2,14 +2,14 @@ cask "phoenix" do
   version "5.0.0-omzcj.1"
   sha256 "3f4e545c42731c7338f1f6a84079e3807cf15320b3ccdb49449df95ec1b2c5e3"
 
-  url "https://github.com/omzcj/phoenix/releases/download/v#{version}/phoenix-#{version}.zip",
-      verified: "github.com/omzcj/phoenix/"
+  url "https://github.com/omzcj/phoenix/releases/download/v#{version}/phoenix-#{version}.zip"
   name "Phoenix"
   desc "Window and app manager scriptable with JavaScript"
   homepage "https://github.com/omzcj/phoenix/"
 
   livecheck do
     url :url
+    regex(/^v?(\d+(?:\.\d+)+-omzcj\.\d+)$/i)
     strategy :github_latest
   end
 

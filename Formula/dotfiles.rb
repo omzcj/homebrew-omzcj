@@ -2,7 +2,6 @@ class Dotfiles < Formula
   desc "Record disk-usage snapshots with ncdu"
   homepage "https://github.com/omzcj/dotfiles"
   url "https://github.com/omzcj/dotfiles/releases/download/v2026.07.16/dotfiles-2026.07.16.tar.gz"
-  version "2026.07.16"
   sha256 "3d31068c73045da42ae217018d1f7f8aca086c1e7e3b822359f9b693ff916d22"
 
   livecheck do

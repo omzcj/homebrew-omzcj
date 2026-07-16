@@ -2,7 +2,6 @@ class ClassDump < Formula
   desc "Generate Objective-C headers from Mach-O files"
   homepage "http://stevenygard.com/"
   url "https://github.com/omzcj/class-dump/releases/download/3.6.2/class-dump"
-  version "3.6.2"
   sha256 "1feaaaf19642d37ad939ed0fa926b7eaa6078c099abce2d8f8ad5edb8527a3e2"
 
   livecheck do

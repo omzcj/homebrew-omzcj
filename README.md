@@ -46,9 +46,7 @@ brew services stop iproxy-ssh
 
 | 名称 | 用途 | 备注 |
 | --- | --- | --- |
-| `clipbus` | 剪贴板历史管理 | Apple Silicon、macOS 15+ |
 | `niz-plum-keyboard` | NiZ Plum 键盘校验工具 | macOS |
-| `phoenix` | 可使用 JavaScript 配置的窗口管理器 | 定制修复版、macOS 11+、ad-hoc 签名 |
 
 ## 维护与验证
 
@@ -68,10 +66,6 @@ Tap 每天检查一次这些 Release，并通过 Homebrew `bump-packages` 自动
 启用前需要在仓库 Actions secrets 中添加 `HOMEBREW_BUMP_TOKEN`；它应是仅授权本仓库、
 能推送分支并创建 Pull Request 的 fine-grained PAT。未配置时工作流会安全跳过，不会产生
 失败通知。
-
-`phoenix` 从 `omzcj/phoenix` 的版本标签构建通用 macOS 应用，并使用 ad-hoc 签名发布。
-首次运行可能需要在“系统设置 → 隐私与安全性”中选择“仍要打开”，之后还需授予辅助功能
-权限。它同样由 Autobump 检查 GitHub Release 并创建 Cask 更新 PR。
 
 首次启用时按以下顺序推送，避免 Formula 暂时引用还不存在的资源：
 

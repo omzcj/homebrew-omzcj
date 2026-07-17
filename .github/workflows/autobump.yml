@@ -37,5 +37,4 @@ jobs:
             ds_store
             iterm2-zssh
             lockscreen
-          casks: phoenix
           fork: false

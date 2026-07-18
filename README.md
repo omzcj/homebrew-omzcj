@@ -69,6 +69,8 @@ Tap 每天检查一次这些 Release，并通过 Homebrew `bump-packages` 自动
 失败通知。
 
 `minitools` 从 `omzcj/miniTools` 的版本标签构建通用 macOS 应用，并以 ad-hoc 签名发布。
+发行版本使用 `YYYY.MM.DD.N`，其中 `N` 是从 `1` 开始的当日发布序号；应用内显示前三段
+日期版本，GitHub Release 和 Cask 使用完整版本。
 首次运行可能需要在“系统设置 → 隐私与安全性”中选择“仍要打开”，之后还需授予辅助功能
 权限。它同样由 Autobump 检查 GitHub Release 并创建 Cask 更新 PR。
 

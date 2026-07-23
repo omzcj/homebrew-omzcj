@@ -47,7 +47,6 @@ brew services stop iproxy-ssh
 | 名称 | 用途 | 备注 |
 | --- | --- | --- |
 | `minitools` | 剪贴板转换、Safari 窗口切换和窗口管理 | macOS 26+、ad-hoc 签名 |
-| `niz-plum-keyboard` | NiZ Plum 键盘校验工具 | macOS |
 
 ## 维护与验证
 

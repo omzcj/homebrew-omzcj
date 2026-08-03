@@ -1,6 +1,6 @@
 cask "minitools" do
-  version "2026.08.03.1"
-  sha256 "4c374560e8cff7345848991e568ebe5faffd51d0f0ee59161f12bf99d86d9c38"
+  version "2026.08.03.2"
+  sha256 "42716fff01b854ffa9da4a0a7855f9ae519917bc2142805b39ebe816e5b24ef0"
 
   url "https://github.com/omzcj/miniTools/releases/download/v#{version}/miniTools-#{version}.zip"
   name "miniTools"
@@ -21,8 +21,8 @@ cask "minitools" do
   zap trash: "~/Library/Preferences/com.omzcj.minitools.plist"
 
   caveats <<~EOS
-    miniTools is ad-hoc signed and is not notarized by Apple. If macOS blocks
-    the first launch, open System Settings > Privacy & Security and choose
-    Open Anyway for miniTools. Accessibility permission is also required.
+    miniTools requires Accessibility permission for Safari window switching
+    and window management. Mouse side-button bindings also require Input
+    Monitoring permission.
   EOS
 end

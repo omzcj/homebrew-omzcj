@@ -21,8 +21,8 @@ cask "minitools" do
   zap trash: "~/Library/Preferences/com.omzcj.minitools.plist"
 
   caveats <<~EOS
-    miniTools is ad-hoc signed and is not notarized by Apple. If macOS blocks
-    the first launch, open System Settings > Privacy & Security and choose
-    Open Anyway for miniTools. Accessibility permission is also required.
+    miniTools requires Accessibility permission for Safari window switching
+    and window management. Mouse side-button bindings also require Input
+    Monitoring permission.
   EOS
 end

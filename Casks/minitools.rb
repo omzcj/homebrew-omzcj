@@ -1,6 +1,6 @@
 cask "minitools" do
-  version "2026.08.03.4"
-  sha256 "f04f8ee8f2a0ec0eca49d3b10d92ab811bf1ff5a98a367b0ef294973b23d3ba2"
+  version "2026.08.04.1"
+  sha256 "f4958918f71780413afac65834bd07bda6b3dd464f1c368c21ff0e217307eb19"
 
   url "https://github.com/omzcj/miniTools/releases/download/v#{version}/miniTools-#{version}.zip"
   name "miniTools"
@@ -23,6 +23,7 @@ cask "minitools" do
   caveats <<~EOS
     miniTools requires Accessibility permission for Safari window switching
     and window management. Mouse side-button bindings also require Input
-    Monitoring permission.
+    Monitoring permission. Closed-lid running requires one-time approval for
+    the miniTools background service in System Settings.
   EOS
 end

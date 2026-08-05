@@ -37,5 +37,6 @@ jobs:
             ds_store
             iterm2-zssh
             lockscreen
+            scaletail
           casks: minitools
           fork: false

@@ -31,6 +31,7 @@ brew install <formula>
 | `lockscreen` | 从命令行锁定当前 macOS 会话 | macOS |
 | `optool` | 编辑 Mach-O load command | 仅 Intel macOS |
 | `restore-symbol` | 恢复 Mach-O 文件中的符号 | macOS |
+| `scaletail` | 以 `scaletail`/`scaletaild` 命令名安装 Tailscale | 基于官方 Tailscale 源码 |
 
 启动或停止服务：
 
@@ -66,6 +67,10 @@ Tap 每天检查一次这些 Release，并通过 Homebrew `bump-packages` 自动
 启用前需要在仓库 Actions secrets 中添加 `HOMEBREW_BUMP_TOKEN`；它应是仅授权本仓库、
 能推送分支并创建 Pull Request 的 fine-grained PAT。未配置时工作流会安全跳过，不会产生
 失败通知。
+
+`scaletail` 直接跟随 Tailscale 官方稳定 tag，通过同一 Autobump 工作流更新，不需要
+单独维护源码仓库。Formula 仅把安装的 CLI、daemon、服务和补全文件改为 `scaletail`
+命名；内部版本信息、协议和网络行为仍属于 Tailscale。
 
 `minitools` 从 `omzcj/miniTools` 的版本标签构建通用 macOS 应用，并以 ad-hoc 签名发布。
 发行版本使用 `YYYY.MM.DD.N`，其中 `N` 是从 `1` 开始的当日发布序号；应用内显示前三段

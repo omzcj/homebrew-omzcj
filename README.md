@@ -23,6 +23,7 @@ brew install <formula>
 | 名称 | 用途 | 备注 |
 | --- | --- | --- |
 | `class-dump` | 从 Mach-O 文件生成 Objective-C 头文件 | macOS |
+| `codex-remote` | 手动让 ChatGPT Desktop 复用 Codex managed app-server | macOS、手动运行 |
 | `dotfiles` | 使用 ncdu 记录磁盘占用快照 | 依赖 `ncdu` |
 | `ds_store` | 查找、清理并监控 `.DS_Store` 文件 | 支持 Homebrew Services |
 | `insert_dylib` | 向 Mach-O 文件插入 dylib load command | macOS、需要 Xcode 构建 |
@@ -41,6 +42,13 @@ brew services stop ds_store
 
 brew services start iproxy-ssh
 brew services stop iproxy-ssh
+```
+
+`codex-remote` 不使用 Homebrew Services 或 LaunchAgent。安装后需要时手动运行：
+
+```sh
+codex-remote
+codex-remote status
 ```
 
 ## Casks

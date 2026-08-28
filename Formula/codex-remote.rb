@@ -1,8 +1,8 @@
 class CodexRemote < Formula
   desc "Manually connect ChatGPT Desktop to the Codex managed app-server"
   homepage "https://github.com/omzcj/codex-remote"
-  url "https://github.com/omzcj/codex-remote/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "a4dbdfe9252877b90b68dd4274b695c5f003aae622b45e2457f0176595678961"
+  url "https://github.com/omzcj/codex-remote/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "740ea54cb341120689a8ac1d94fc6324408ecbf549ee3c4fcea93ff11e76831e"
   license "MIT"
 
   depends_on :macos

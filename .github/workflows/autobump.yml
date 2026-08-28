@@ -33,6 +33,7 @@ jobs:
           token: ${{ secrets.HOMEBREW_BUMP_TOKEN }}
           formulae: >
             class-dump
+            codex-remote
             dotfiles
             ds_store
             iterm2-zssh

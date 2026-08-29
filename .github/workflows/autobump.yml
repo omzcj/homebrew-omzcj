@@ -39,5 +39,7 @@ jobs:
             iterm2-zssh
             lockscreen
             scaletail
-          casks: minitools
+          casks: >
+            minitools
+            rustdeskx
           fork: false

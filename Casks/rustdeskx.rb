@@ -13,7 +13,7 @@ cask "rustdeskx" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "RustDeskX.app"
 
@@ -29,4 +29,3 @@ cask "rustdeskx" do
     RustDeskX and connect to <Tailscale-IP-or-MagicDNS-name>:21118.
   EOS
 end
-

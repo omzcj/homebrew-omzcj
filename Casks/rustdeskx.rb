@@ -1,6 +1,6 @@
 cask "rustdeskx" do
-  version "1.4.9.1"
-  sha256 "5e1ce65c6cffc1f4bc7b9b8e59e4868abc2e87ee699a4c6becaaba09a7e1d06e"
+  version "1.4.9.2"
+  sha256 "14073312432c2b548f3f9335bcd8991c629c3fed8b32c2d854e3136602938101"
 
   url "https://github.com/omzcj/RustDeskX/releases/download/v#{version}/RustDeskX-#{version}-arm64.zip"
   name "RustDeskX"

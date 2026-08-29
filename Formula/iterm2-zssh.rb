@@ -1,8 +1,8 @@
 class Iterm2Zssh < Formula
   desc "Send and receive files with ZMODEM in iTerm2"
   homepage "https://github.com/omzcj/iterm2-zssh"
-  url "https://github.com/omzcj/iterm2-zssh/releases/download/v2026.07.16/iterm2-zssh-2026.07.16.tar.gz"
-  sha256 "29f8e8d5a2417f28b802ed0117bf88af16ed9c24ed5dfec19f4c873cb0766600"
+  url "https://github.com/omzcj/iterm2-zssh/releases/download/v2026.08.29.1/iterm2-zssh-2026.08.29.1.tar.gz"
+  sha256 "131d408f5ea5908e7c13f387d3db8f3750c8487a0409dccb968b078a808047cc"
 
   livecheck do
     url :stable

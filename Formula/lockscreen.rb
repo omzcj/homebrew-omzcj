@@ -1,8 +1,8 @@
 class Lockscreen < Formula
   desc "Lock the current macOS user session"
   homepage "https://github.com/omzcj/lockscreen"
-  url "https://github.com/omzcj/lockscreen/releases/download/v2026.07.16/lockscreen-2026.07.16.tar.gz"
-  sha256 "2172f099537b3eea9898ed5b0db1a7dab9e0d8bc2bfcfa8f9af894d978b37366"
+  url "https://github.com/omzcj/lockscreen/releases/download/v2026.08.29.1/lockscreen-2026.08.29.1.tar.gz"
+  sha256 "4a97ce2abfeaecfa384420fbf9612d85ad139c03130348e96fd36425c95df04f"
 
   livecheck do
     url :stable

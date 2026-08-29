@@ -3,7 +3,7 @@ class IproxySsh < Formula
   homepage "https://github.com/omzcj/homebrew-omzcj"
   url "https://github.com/omzcj/homebrew-omzcj/archive/e34484a58e93d5cdeebda59a292cb9c731d3e66c.tar.gz"
   version "2026.05.28"
-  sha256 "449eb3deba9496acaa400e02071d8c5d3c46aaaebf5e61280e26620b8dafef56"
+  sha256 "bbc1aa63b7d92780359a638a2e017aa07f66f23be0128318066941099892b58b"
 
   depends_on "libusbmuxd"
 
